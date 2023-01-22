@@ -1,0 +1,51 @@
+.container {
+    background-image: url(./images/wp10311466.png);
+}
+
+.form_border {
+    border-radius: 50px;
+    border-color: cornsilk;
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.form_border input {
+    border: 1px solid transparent;
+    border-radius: 50px;
+    width: 250px;
+    height: 40px;
+}
+
+.button {
+    margin-top: 20px;
+    /* margin-left: 180px; */
+    border: 1px solid transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+}
+
+.button:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+#welcomeH1AfterSignUp {
+    color: deeppink;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
